@@ -13,17 +13,17 @@ public class Lab1Activity {
 		{
 			sum += arr[i];
 			
-//			if (arr[i] < min) {
-//				min = arr[i];
-//			}
-//			
-//			if (arr[i] > max) {
-//				max = arr[i];
-//			}
+			if (arr[i] < min) {
+				min = arr[i];
+			}
+			
+			if (arr[i] > max) {
+				max = arr[i];
+			}
 		}
 		
 		System.out.println(String.format("Sum of the numbers is %d", sum));
-		//System.out.println(String.format("Min = %d; Max = %d", min, max));
+		System.out.println(String.format("Min = %d; Max = %d", min, max));
 	}
 	
 }
